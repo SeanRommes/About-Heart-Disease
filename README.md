@@ -9,28 +9,27 @@
  
 ### Methods
 
-  I invoke the standard methods of data cleaning and analysis to purge the data set of the ungodly horrors that are missing values and duplicate rows!
+  I meticulosly examine and clean each column line by line, investigating any abnormalities as I go.
   
   I then present you with some of the outliers visually and explore each feature using histograms, boxplots, heatmaps, catplots, and lineplots.
   
   After getting a good overview of the data I prepare the model for machine learning and perform a little feature engineering to improve the accuarcy of my model
   
-  Lastly I have built 4 machine learning models and pit them against each other in glorious metric analysis... ! I used a linear regression model, random forest, decision tree, and knn.
+  Lastly I have built 4 machine learning models, visualize the metrics, and determine which model is most suited for deployment using a statisical approach. In my machine learning I instantiate a logistics regression model, random forest, decision tree, and knn.
   
-### Teasers
+### Univariate and Mulitvariate Analysis
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/107956865/186997334-4969ded5-1f00-4fd5-bfa3-79afc05a0e94.png)
 ![Screenshot (37)](https://user-images.githubusercontent.com/107956865/186997348-ce9ca689-98c5-419c-9609-cfa821746ff7.png)
 ![Screenshot (39)](https://user-images.githubusercontent.com/107956865/186997359-789a838d-300f-476d-a65d-73ed907d5727.png)
 
-### Spoliers
+### Outcome
   
-  I decided to go with my KNN model. After some tuning it was the most well balanced and performed fairly well on the data and the least error prone of the models.
-  With only an r2 score of 50 on the training set, it scored a 44 on the test set, making it the least over fit of my models. While perhaps not the highest of scores I   chose it for it's balance and adaptability as well. Hopefully with more data I can get a higher scoreing model! 
+  I decided to go with my random forest model. After some tuning it was the most well balanced and performed incredibly well on the dataset with only a 4% margin of     error. It was able to accuratly identify 97% of the true negatives and 96% of the true positives meaning only about 1 in 20 patients could miss out on treatment as     an error in prediction.
   
 ### Limitations & Next Steps
 
-   low scores and overfitting, will have to reduce bias/variance with feature engineering or a larger data set
+   The model was overfit by about 10% indicating it has a higher tendency for variance and may struggle with new data. The sample size only contained 918 patients so      with a larger dataset to fit the model on, the variance would be reduced. I could also try and reduce some of the model complexity to regularize it somewhat.
    
 ### For further information
 
