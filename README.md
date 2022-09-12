@@ -1,4 +1,4 @@
-# Project-2, A Heart Disease Dataset
+# A Heart Disease Dataset
 
 ## In this data set I explore the highest factors related to heart disease and who is most at risk. What should you be concerned about and what can you safely ignore? The results may surprise you as I investigate this silent killer and hopefully provide you with some valuable insights! My aim is to build a pedictive machine learning model that can help doctors with the prescreening process, saving valuable time and catching it early!
 
