@@ -1,6 +1,6 @@
 # A Heart Disease Dataset
 
-## In this data set I explore the highest factors related to heart disease and who is most at risk. What should you be concerned about and what can you safely ignore? The results may surprise you as I investigate this silent killer and hopefully provide you with some valuable insights! My aim is to build a pedictive machine learning model that can help doctors with the prescreening process, saving valuable time and catching it early!
+## In this data set I explore the highest factors related to heart disease and who is most at risk. What should you be concerned about and what can you safely ignore? The results may surprise you as I investigate this silent killer and hopefully provide you with some valuable insights! My aim is to build a predictive machine learning model that can help doctors with the prescreening process, saving valuable time and catching it early!
 
 ### Data:
 
@@ -15,7 +15,7 @@
   
   After getting a good overview of the data I prepare the model for machine learning and perform a little feature engineering to improve the accuarcy of my model
   
-  Lastly I have built 4 machine learning models, visualize the metrics, and determine which model is most suited for deployment using a statisical approach. In my machine learning I instantiate a logistics regression model, random forest, decision tree, and knn.
+  Lastly I have build 4 machine learning models, visualize the metrics, and determine which model is most suited for deployment using a statisical approach. In my machine learning I instantiate a logistics regression model, random forest, decision tree, and knn.
   
 ### Univariate and Mulitvariate Analysis
 
@@ -25,7 +25,7 @@
 
 ### Outcome
   
-  I decided to go with my random forest model. After some tuning it was the most well balanced and performed incredibly well on the dataset with only a 4% margin of     error. It was able to accuratly identify 97% of the true negatives and 96% of the true positives meaning only about 1 in 20 patients could miss out on treatment as     an error in prediction.
+  I decided to go with my random forest model. After some tuning it was the most well balanced and performed incredibly well on the dataset with only a 2% margin of     error. It was able to accuratly identify 100% of the true negatives and 98% of the true positives meaning only about 1 in 50 patients could miss out on treatment as   an error in prediction. However this model is slightly overfit on the data (about 10% off train vs test metrics). In the future I aim to reduce overfitting useing     smote to better balance the data.
   
 ### Limitations & Next Steps
 
